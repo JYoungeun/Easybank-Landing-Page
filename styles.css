@@ -19,6 +19,9 @@ html {
     overflow-x: hidden;
 }
 
+.intro {
+    background-image: url(images/bg-intro-mobile.svg);
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
