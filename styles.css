@@ -19,6 +19,18 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    font-family: Public Sans;
+    width: 375px;
+}
+
 .intro {
     background-image: url(images/bg-intro-mobile.svg);
 }
