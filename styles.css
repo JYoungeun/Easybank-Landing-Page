@@ -46,8 +46,17 @@ main {
     display: none;
 }
 
+.article-pics {
+    max-width: 375px;
+}
+
 footer {
     background-color: var(--Dark-Blue);
+    text-align: center;
+}
+
+.dropdown-footer > ul {
+    list-style-type: none;
 }
 
 .attribution { 
