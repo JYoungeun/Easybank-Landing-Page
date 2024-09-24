@@ -27,13 +27,21 @@ body {
 }
 
 main {
+    background-color: var(--Light-Grayish-Bluerayish-Blue);
     font-family: Public Sans;
     width: 375px;
 }
 
-.intro {
-    background-image: url(images/bg-intro-mobile.svg);
+.banner {
+    background-color: var(--White);
 }
+
+.dropdown > ul {
+    background-color: var(--White);
+    list-style-type: none;
+    text-align: center;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
