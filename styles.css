@@ -33,16 +33,60 @@ main {
 
 .banner {
     background-color: var(--White);
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
 }
 
-.dropdown > ul {
-    background-color: var(--White);
-    list-style-type: none;
-    text-align: center;
+.hamburger-menu {
+    cursor: pointer;
+    width: 24px; /* Width of the hamburger icon */
+    height: 10px; /* Adjust height to fit the three lines */
+    display: flex;
+    flex-direction: column; /* Stack the lines vertically */
+    justify-content: space-between; /* Space between the lines */
+}
+
+.bar {
+    height: 7%; /* Height of each line */
+    background-color: var(--Dark-Blue); /* Color of the lines */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Dropdown styles */
+.dropdown-content {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1;
+    margin-top: 5px;
+    padding: 10px 0; /* Add some padding */
+}
+
+.dropdown-content a {
+    display: block; /* Make links take full width */
+    padding: 8px 16px; /* Padding for links */
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Highlight on hover */
+}
+
+/* Show dropdown when active */
+.dropdown.active .dropdown-content {
+    display: block; /* Show the menu when active */
 }
 
 .hidden {
     display: none;
+}
+
+.intro > .intro-description {
+    background-image: url('images/bg-intro-mobile.svg');
+    height: 26rem;
 }
 
 .reasons {
