@@ -1,34 +1,23 @@
-// Function to toggle the dropdown and hamburger menu
+const hamburger = document.getElementById("hamburger");
+const dropdown = document.querySelector(".dropdown");
+
 function toggleMenu() {
-    const dropdown = document.querySelector(".dropdown");
-    const hamburger = document.getElementById("hamburger");
-    
-    dropdown.classList.toggle("active"); // Toggle dropdown visibility
-    hamburger.classList.toggle("active"); // Toggle hamburger transformation
+    dropdown.classList.toggle("active");
+    hamburger.classList.toggle("active");
 }
 
-// Click event for the hamburger menu
 document.getElementById("hamburger").addEventListener("click", toggleMenu);
 
-// Click event for outside the menu
 document.addEventListener("click", function(event) {
-    const dropdown = document.querySelector(".dropdown");
-    const hamburger = document.getElementById("hamburger");
-    
-    // Check if the click was outside the hamburger and dropdown
     if (!hamburger.contains(event.target) && !dropdown.contains(event.target)) {
-        dropdown.classList.remove("active"); // Close dropdown
-        hamburger.classList.remove("active"); // Reset hamburger icon
+        dropdown.classList.remove("active");
+        hamburger.classList.remove("active");
     }
 });
 
-// Keydown event for the Escape key
 document.addEventListener("keydown", function(event) {
     if (event.key === "Escape") {
-        const dropdown = document.querySelector(".dropdown");
-        const hamburger = document.getElementById("hamburger");
-        
-        dropdown.classList.remove("active"); // Close dropdown
-        hamburger.classList.remove("active"); // Reset hamburger icon
+        dropdown.classList.remove("active");
+        hamburger.classList.remove("active");
     }
 });
