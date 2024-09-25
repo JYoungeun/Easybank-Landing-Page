@@ -35,25 +35,25 @@ main {
     background-color: var(--White);
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: 1.5rem;
 }
 
 .hamburger-menu {
     cursor: pointer;
-    width: 24px; /* Width of the hamburger icon */
+    width: 21px; /* Width of the hamburger icon */
     height: 10px; /* Adjust height to fit the three lines */
     display: flex;
     flex-direction: column; /* Stack the lines vertically */
     justify-content: space-between; /* Space between the lines */
+    margin-left: 11.5rem;
 }
 
 .bar {
     height: 7%; /* Height of each line */
     background-color: var(--Dark-Blue); /* Color of the lines */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
 
-/* Dropdown styles */
 .dropdown-content {
     display: none; /* Hide dropdown by default */
     position: absolute;
@@ -62,22 +62,37 @@ main {
     z-index: 1;
     margin-top: 5px;
     padding: 10px 0; /* Add some padding */
+    text-align: center;
+    width: 350px;
 }
 
 .dropdown-content a {
     display: block; /* Make links take full width */
     padding: 8px 16px; /* Padding for links */
-    color: #333; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: var(--Grayish-Blue); /* Link color */
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1; /* Highlight on hover */
+    color: var(--Dark-Blue);
+    cursor: pointer;
 }
 
 /* Show dropdown when active */
 .dropdown.active .dropdown-content {
     display: block; /* Show the menu when active */
+}
+
+/* Transformations for when the menu is active */
+.hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(5px) rotate(45deg); /* Move and rotate the first line */
+}
+
+.hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0; /* Hide the middle line */
+}
+
+.hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg); /* Move and rotate the last line */
 }
 
 .hidden {
