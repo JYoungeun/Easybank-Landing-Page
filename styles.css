@@ -108,10 +108,20 @@ main {
     transform: translateY(-7.2rem)
 }
 
-.intro > .intro-description {
+.intro > .intro-container {
     background-image: url('images/bg-intro-mobile.svg');
     background-position: center -4.5rem;
-    height: 21.9rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    height: 28rem;
+}
+
+.intro-container {
+    padding-top: 19rem;
+    text-align: center;
 }
 
 .reasons {
