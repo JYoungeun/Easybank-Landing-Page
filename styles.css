@@ -32,6 +32,8 @@ main {
 }
 
 .banner {
+    position: relative;
+    z-index: 1;
     background-color: var(--White);
     display: flex;
     flex-direction: row;
@@ -99,8 +101,16 @@ main {
     display: none;
 }
 
+.mockups {
+    position: absolute;
+    margin-left: 1.5rem;
+    z-index: 0;
+    transform: translateY(-7.2rem)
+}
+
 .intro > .intro-description {
     background-image: url('images/bg-intro-mobile.svg');
+    background-position: center;
     height: 26rem;
 }
 
