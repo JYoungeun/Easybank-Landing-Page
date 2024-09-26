@@ -28,7 +28,7 @@ body {
 
 main {
     font-family: Public Sans;
-    width: 375px;
+    width: 22.5rem;
 }
 
 .banner {
@@ -43,8 +43,8 @@ main {
 
 .hamburger-menu {
     cursor: pointer;
-    width: 21px;
-    height: 10px;
+    width: 1.26rem;
+    height: 0.6rem;
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
@@ -66,7 +66,7 @@ main {
     margin: 3.25rem 0 0 -8.75rem;
     padding: 1.25rem;
     text-align: center;
-    width: 325px;
+    width: 19.5rem;
 }
 
 .dropdown-content a {
@@ -155,7 +155,7 @@ main {
 }
 
 .article-pics {
-    max-width: 375px;
+    max-width: 22.5rem;
 }
 
 footer {
