@@ -110,8 +110,8 @@ main {
 
 .intro > .intro-description {
     background-image: url('images/bg-intro-mobile.svg');
-    background-position: center;
-    height: 26rem;
+    background-position: center -4.5rem;
+    height: 21.9rem;
 }
 
 .reasons {
