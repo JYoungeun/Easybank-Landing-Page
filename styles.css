@@ -102,26 +102,47 @@ main {
 }
 
 .mockups {
-    position: absolute;
+    position: relative;
     margin-left: 1.5rem;
     z-index: 0;
-    transform: translateY(-7.2rem)
+    transform: translateY(-7.2rem);
 }
 
-.intro > .intro-container {
+.intro-background {
     background-image: url('images/bg-intro-mobile.svg');
     background-position: center -4.5rem;
-    background-size: cover;
     background-repeat: no-repeat;
-}
-
-.intro {
-    height: 28rem;
+    background-color: var(--Very-Light-Gray);
 }
 
 .intro-container {
-    padding-top: 19rem;
+    background-color: var(--Very-Light-Gray);
     text-align: center;
+    margin-top: -6rem;
+}
+
+.intro-header {
+    color: var(--Dark-Blue);
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.intro-description {
+    color: var(--Grayish-Blue);
+    padding: 1rem 1.25rem;
+    font-size: 0.95rem;
+    line-height: 1.6rem;
+}
+
+.intro-button {
+    background: linear-gradient(75deg, var(--Lime-Green), var(--Bright-Cyan));
+    color: var(--Light-Grayish-Blue);
+    font-weight: 700;
+    width: 10rem;
+    height: 2.65rem;
+    border: none;
+    border-radius: 2rem;
+    margin: 1rem auto 5rem;
 }
 
 .reasons {
@@ -150,7 +171,7 @@ footer {
     font-size: 11px; 
     text-align: center; 
 }
-    
+
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
