@@ -178,10 +178,28 @@ main {
 
 .articles {
     background-color: var(--Very-Light-Gray);
+    padding: 1.35rem;
+}
+
+.articles-introduction {
+    padding: 2rem;
+}
+
+.articles-header {
+    color: var(--Dark-Blue);
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.95rem;
 }
 
 .article-pics {
-    max-width: 22.5rem;
+    max-width: 100%;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.article {
+    background-color: var(--White);
+    border-radius: 0.25rem;
 }
 
 footer {
