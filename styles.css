@@ -148,6 +148,32 @@ main {
 .reasons {
     background-color: var(--Light-Grayish-Blue);
     text-align: center;
+    padding: 4rem 0.75rem 2rem;
+}
+
+.reasons-introduction {
+    padding-bottom: 1.75rem;
+}
+
+.reasons-header {
+    color: var(--Dark-Blue);
+    font-weight: 300;
+    font-size: 1.95rem;
+    padding: 0 1rem 0;
+}
+
+.reasons-sub-header {
+    color: var(--Dark-Blue);
+    font-weight: 300;
+    font-size: 1.15rem;
+    padding-top: 1.25rem;
+}
+
+.reasons-description {
+    color: var(--Grayish-Blue);
+    padding: 1rem 1rem 1.75rem 1rem;
+    font-size: 0.85rem;
+    line-height: 1.6rem;
 }
 
 .articles {
