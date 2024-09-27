@@ -43,16 +43,16 @@ main {
 
 .hamburger-menu {
     cursor: pointer;
-    width: 1.26rem;
-    height: 0.6rem;
+    width: 1.35rem;
+    height: 0.7rem;
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
-    margin-left: 11.5rem;
+    margin-left: 10rem;
 }
 
 .bar {
-    height: 7%;
+    height: 14%;
     background-color: var(--Dark-Blue);
 }
 
@@ -134,12 +134,12 @@ main {
     line-height: 1.6rem;
 }
 
-.intro-button {
+button, .hidden {
     background: linear-gradient(75deg, var(--Lime-Green), var(--Bright-Cyan));
     color: var(--Light-Grayish-Blue);
     font-weight: 700;
     width: 10rem;
-    height: 2.65rem;
+    height: 3rem;
     border: none;
     border-radius: 2rem;
     margin: 0.95rem auto 5rem;
@@ -178,11 +178,11 @@ main {
 
 .articles {
     background-color: var(--Very-Light-Gray);
-    padding: 1.35rem;
+    padding: 1.25rem 1.45rem 4rem;
 }
 
 .articles-introduction {
-    padding: 2rem;
+    padding: 3.5rem 0 1.85rem;
 }
 
 .articles-header {
@@ -200,6 +200,30 @@ main {
 .article {
     background-color: var(--White);
     border-radius: 0.25rem;
+    margin-bottom: 1.4rem;
+}
+
+.articles-content {
+    padding: 1.5rem;
+}
+
+.articles-author {
+    color: var(--Grayish-Blue);
+    font-size: 0.65rem;
+    padding: 0.25rem 0 0.65rem;
+}
+
+.articles-sub-header {
+    color: var(--Dark-Blue);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.articles-description {
+    color: var(--Grayish-Blue);
+    font-size: 0.78rem;
+    line-height: 1.1rem;
+    padding: 0.65rem 0 1rem;
 }
 
 footer {
