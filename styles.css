@@ -85,16 +85,11 @@ main {
     display: block;
 }
 
-.hamburger-menu.active .bar:nth-child(1) {
-    transform: translateY(5px) rotate(45deg);
-}
-
-.hamburger-menu.active .bar:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburger-menu.active .bar:nth-child(3) {
-    transform: translateY(-5px) rotate(-45deg);
+#close-icon {
+    cursor: pointer;
+    width: 1.35rem; /* Match the size of the hamburger */
+    height: auto;   /* Adjust as needed */
+    margin-left: 10rem; /* Match the hamburger positioning */
 }
 
 .hidden {
@@ -134,7 +129,7 @@ main {
     line-height: 1.6rem;
 }
 
-button, .hidden {
+.intro-button {
     background: linear-gradient(75deg, var(--Lime-Green), var(--Bright-Cyan));
     color: var(--Light-Grayish-Blue);
     font-weight: 700;
@@ -232,7 +227,22 @@ footer {
 }
 
 .dropdown-footer > ul {
+    color: var(--Light-Grayish-Blue);
     list-style-type: none;
+}
+
+.footer-button {
+    background: linear-gradient(75deg, var(--Lime-Green), var(--Bright-Cyan));
+    color: var(--Light-Grayish-Blue);
+    font-weight: 700;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.footer-rights {
+    color: var(--Grayish-Blue);
 }
 
 .attribution { 
