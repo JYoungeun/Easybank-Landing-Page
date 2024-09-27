@@ -38,7 +38,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1.5rem;
+    padding: 1.25rem;
 }
 
 .hamburger-menu {
@@ -63,7 +63,7 @@ main {
     border: 1px solid #ccc;
     border-radius: 0.35rem;
     z-index: 1;
-    margin: 3.25rem 0 0 -8.75rem;
+    margin: 2.4rem 0 0 -8.35rem;
     padding: 1.25rem;
     text-align: center;
     width: 19.5rem;
@@ -87,9 +87,8 @@ main {
 
 #close-icon {
     cursor: pointer;
-    width: 1.35rem; /* Match the size of the hamburger */
-    height: auto;   /* Adjust as needed */
-    margin-left: 10rem; /* Match the hamburger positioning */
+    width: 1rem;
+    margin-left: 10.155rem;
 }
 
 .hidden {
