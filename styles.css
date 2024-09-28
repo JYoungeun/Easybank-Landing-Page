@@ -223,11 +223,28 @@ main {
 footer {
     background-color: var(--Dark-Blue);
     text-align: center;
+    padding: 2rem 2rem 3rem 2rem;
+}
+
+.footer-icon {
+    padding-top: 1rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0 1.85rem 0;
+}
+
+.icons-image {
+    margin: 0 -4rem;
+
 }
 
 .dropdown-footer > ul {
     color: var(--Light-Grayish-Blue);
     list-style-type: none;
+    line-height: 2rem;
 }
 
 .footer-button {
@@ -238,6 +255,7 @@ footer {
     height: 3rem;
     border: none;
     border-radius: 2rem;
+    margin: 2rem 0 2rem 0;
 }
 
 .footer-rights {
