@@ -227,6 +227,7 @@ footer {
 }
 
 .footer-icon {
+    fill: var(--White);
     padding-top: 1rem;
 }
 
@@ -237,14 +238,15 @@ footer {
 }
 
 .icons-image {
-    margin: 0 -4rem;
-
+    margin: 0 -3rem;
+    width: 1.5rem;
 }
 
 .dropdown-footer > ul {
     color: var(--Light-Grayish-Blue);
     list-style-type: none;
     line-height: 2rem;
+    font-size: 0.9rem;
 }
 
 .footer-button {
@@ -255,7 +257,7 @@ footer {
     height: 3rem;
     border: none;
     border-radius: 2rem;
-    margin: 2rem 0 2rem 0;
+    margin: 1.85rem 0 1.85rem 0;
 }
 
 .footer-rights {
@@ -265,6 +267,7 @@ footer {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    padding: 0.85rem 0 0.85rem 0;
 }
 
 .attribution a { 
