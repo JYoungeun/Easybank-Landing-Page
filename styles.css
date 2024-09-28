@@ -273,3 +273,14 @@ footer {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media (min-width: 450px) {
+    main {
+        max-width: 86.4rem;
+        width: 40rem;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+}
