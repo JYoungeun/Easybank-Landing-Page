@@ -227,7 +227,7 @@ footer {
 }
 
 .footer-icon {
-    fill: var(--White);
+    filter: invert(10%) contrast(100%) brightness(325%) saturate(400%) hue-rotate(15deg) sepia(5%);
     padding-top: 1rem;
 }
 
