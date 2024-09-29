@@ -354,12 +354,16 @@ footer {
         padding-left: 6.5rem;
     }
 
+    .reasons-header-description {
+        width: 35rem;
+    }
+
     .reasons-body {
         display: flex;
         padding-left: 7.4rem;
     }
 
-    .reasons-description {
+    .reasons-body .reasons-description {
         margin-left: -1rem;
         width: 16rem;
     }
