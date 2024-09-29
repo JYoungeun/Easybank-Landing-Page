@@ -294,10 +294,11 @@ footer {
     }
 
     .dropdown-content {
+        background: none;
+        position: relative;
         display: flex;
         justify-content: space-evenly;
-        position: relative;
-        margin: auto 15.5rem;
+        margin: auto 15rem;
         border: none;
     }
 
@@ -310,26 +311,37 @@ footer {
         height: 3rem;
         border: none;
         border-radius: 2rem;
-        margin-left: 0.5rem;
+        margin-left: 0.75rem;
     }
 
     .intro {
-        height: 37.25rem;
         width: 86.4rem;
     }
+
     .intro-background {
         background-image: url('images/bg-intro-desktop.svg');
-        background-position: 38.5rem;
+        background-position: 38.5rem -17rem;
         float: right;
-        height: 42rem;
         width: 86.4rem;
+        height: 38rem;
     }
 
     .mockups {
         float: right;
         transform: translateX(7.25rem);
-        margin-top: -1.25rem;
-        width: 42rem;
-        height: 55rem;
+        margin-top: -7rem;
+        width: 44rem;
+    }
+
+    .intro-container {
+        background: none;
+        position: absolute;
+        margin: 11.5rem 0 0 8rem;
+        width: 24rem;
+        text-align: left;
+    }
+
+    .intro-description {
+        padding: 1rem 0 1rem;
     }
 }
