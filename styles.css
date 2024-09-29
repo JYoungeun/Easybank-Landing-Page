@@ -311,7 +311,7 @@ footer {
         height: 3rem;
         border: none;
         border-radius: 2rem;
-        margin-left: 0.75rem;
+        margin-left: 0.95rem;
     }
 
     .intro {
@@ -328,7 +328,7 @@ footer {
 
     .mockups {
         float: right;
-        transform: translateX(7.25rem);
+        transform: translateX(7.45rem);
         margin-top: -7rem;
         width: 44rem;
     }
@@ -343,5 +343,34 @@ footer {
 
     .intro-description {
         padding: 1rem 0 1rem;
+    }
+
+    .reasons {
+        text-align: left;
+        padding-top: 42.5rem;
+    }
+
+    .reasons-header {
+        padding-left: 8rem;
+    }
+
+    .reasons-header-description {
+        width: 42rem;
+    }
+
+    .reasons-body {
+        display: flex;
+    }
+
+    .reasons-img {
+        padding-left: 8rem;
+    }
+
+    .reasons-sub-header {
+        padding-left: 8rem;
+    }
+
+    .reasons-description {
+        padding-left: 8rem;
     }
 }
