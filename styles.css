@@ -280,8 +280,13 @@ footer {
 
 @media (min-width: 450px) {
     main {
-        max-width: 86.4rem;
-        width: 48rem;
+        width: 86.4rem;
+        overflow: hidden;
+    }
+
+    .banner {
+        padding-left: 8rem;
+        height: 6rem;
     }
 
     .hamburger-menu {
@@ -291,7 +296,7 @@ footer {
     .dropdown-content {
         display: flex;
         position: relative;
-        margin-left: 1rem;
+        margin: auto 12rem;
         border: none;
     }
 
@@ -304,9 +309,25 @@ footer {
         height: 3rem;
         border: none;
         border-radius: 2rem;
+        margin-left: 7.5rem;
     }
 
+    .intro {
+        height: 37.25rem;
+        width: 86.4rem;
+    }
     .intro-background {
-        background-image: none;
+        background-image: url('images/bg-intro-desktop.svg');
+        background-position: 40rem;
+        float: right;
+        height: 42rem;
+        width: 86.4rem;
+    }
+
+    .mockups {
+        float: right;
+        transform: translateX(7.25rem);
+        margin-top: -0.5rem;
+        width: 42rem;
     }
 }
