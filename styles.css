@@ -286,7 +286,7 @@ footer {
 
     .banner {
         padding-left: 8rem;
-        height: 6rem;
+        height: 5rem;
     }
 
     .hamburger-menu {
@@ -295,8 +295,9 @@ footer {
 
     .dropdown-content {
         display: flex;
+        justify-content: space-evenly;
         position: relative;
-        margin: auto 12rem;
+        margin: auto 15.5rem;
         border: none;
     }
 
@@ -309,7 +310,7 @@ footer {
         height: 3rem;
         border: none;
         border-radius: 2rem;
-        margin-left: 7.5rem;
+        margin-left: 0.5rem;
     }
 
     .intro {
@@ -318,7 +319,7 @@ footer {
     }
     .intro-background {
         background-image: url('images/bg-intro-desktop.svg');
-        background-position: 40rem;
+        background-position: 38.5rem;
         float: right;
         height: 42rem;
         width: 86.4rem;
@@ -327,7 +328,8 @@ footer {
     .mockups {
         float: right;
         transform: translateX(7.25rem);
-        margin-top: -0.5rem;
+        margin-top: -1.25rem;
         width: 42rem;
+        height: 55rem;
     }
 }
