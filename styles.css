@@ -350,27 +350,32 @@ footer {
         padding-top: 42.5rem;
     }
 
-    .reasons-header {
-        padding-left: 8rem;
+    .reasons-introduction {
+        padding-left: 6.5rem;
     }
 
     .reasons-header-description {
-        width: 42rem;
+        width: 36rem;
+        padding-left: 2rem;
     }
 
     .reasons-body {
         display: flex;
-    }
-
-    .reasons-img {
-        padding-left: 8rem;
-    }
-
-    .reasons-sub-header {
-        padding-left: 8rem;
+        padding-left: 7.4rem;
     }
 
     .reasons-description {
-        padding-left: 8rem;
+        margin-left: -1rem;
+        width: 16rem;
+    }
+
+    .articles-introduction {
+        text-align: left;
+        float: left;
+        padding-left: 6.65rem;
+    }
+
+    .articles-body {
+        display: flex;
     }
 }
