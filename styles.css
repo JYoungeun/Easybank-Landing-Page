@@ -360,7 +360,9 @@ footer {
 
     .reasons-body {
         display: flex;
-        padding-left: 7.4rem;
+        justify-content: space-evenly;
+        padding-left: 0rem;
+        margin: 0 5rem;
     }
 
     .reasons-body .reasons-description {
