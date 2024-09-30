@@ -377,14 +377,34 @@ footer {
         width: 16.07rem;
     }
 
+    .articles {
+        margin: 0 0 1rem;
+    }
+
     .articles-introduction {
         text-align: left;
         float: left;
-        padding-left: 6.65rem;
+        padding-left: 9.25rem;
     }
 
     .articles-body {
         display: flex;
-        margin: 10rem 6.75rem 0 6.75rem;
+        margin: 8rem 8.5rem 0;
+    }
+
+    .article {
+        margin: 0 0.75rem;
+    }
+
+    .article-pics {
+        height: 10.25rem;
+    }
+
+    #currency-img {
+        width: 15rem
+    }
+
+    .articles-content {
+        margin: -0.5rem -0.25rem -1.25rem;
     }
 }
