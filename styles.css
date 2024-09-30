@@ -285,7 +285,7 @@ footer {
     }
 
     .banner {
-        padding-left: 8rem;
+        padding-left: 10.75rem;
         height: 5rem;
     }
 
@@ -298,7 +298,7 @@ footer {
         position: relative;
         display: flex;
         justify-content: space-evenly;
-        margin: auto 15rem;
+        margin: auto 11.5rem;
         border: none;
     }
 
@@ -311,7 +311,7 @@ footer {
         height: 3rem;
         border: none;
         border-radius: 2rem;
-        margin-left: 0.95rem;
+        margin-left: 4.75rem;
     }
 
     .intro {
@@ -320,7 +320,7 @@ footer {
 
     .intro-background {
         background-image: url('images/bg-intro-desktop.svg');
-        background-position: 38.5rem -17rem;
+        background-position: 37.5rem -17rem;
         float: right;
         width: 86.4rem;
         height: 38rem;
@@ -330,13 +330,13 @@ footer {
         float: right;
         transform: translateX(7.45rem);
         margin-top: -7rem;
-        width: 44rem;
+        width: 44.25rem;
     }
 
     .intro-container {
         background: none;
         position: absolute;
-        margin: 11.5rem 0 0 8rem;
+        margin: 11.5rem 0 0 10.75rem;
         width: 24rem;
         text-align: left;
     }
@@ -345,18 +345,13 @@ footer {
         padding: 1rem 0 1rem;
     }
 
-    .reasons > * {
-        margin: 0;
-        padding: 0;
-    }
-
     .reasons {
         text-align: left;
-        padding: 44rem 0 3rem;
+        padding: 43rem 0 3rem;
     }
 
     .reasons-introduction {
-        padding-left: 7rem;
+        padding-left: 9.85rem;
     }
 
     .reasons-header-description {
@@ -367,14 +362,15 @@ footer {
         display: flex;
         justify-content: space-evenly;
         margin: 0 4rem;
+        padding: 0 5rem;
     }
 
     .reasons-img {
-        margin-left: -4.5rem;
+        margin-left: 1rem;
     }
 
     .reasons-sub-header {
-        margin-left: -4.5rem;
+        margin-left: 1rem;
     }
 
     .reasons-body .reasons-description {
