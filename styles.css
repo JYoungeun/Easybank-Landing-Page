@@ -389,7 +389,7 @@ footer {
 
     .articles-body {
         display: flex;
-        margin: 8rem 8.75rem 0;
+        margin: 8rem 8.65rem 0;
     }
 
     .article {
@@ -418,33 +418,40 @@ footer {
     }
 
     .footer-icon {
-        margin: 0 0 0 8.75rem;
+        margin: -0.5rem 0 0 8.75rem;
     }
 
     .icons {
-        margin-left: 6rem;
-        padding: 2rem 0 0 0;
+        transform: translateX(8.25rem);
+        padding: 3rem 0 0 0;
         width: 12rem;
+    }
+
+    .icons-image {
+        margin: 0.25rem;
     }
 
     .dropdown-footer {
         columns: 2;
-        width: 24rem;
+        width: 32rem;
         text-align: left;
-        margin: 0.5rem 0 0 8rem;
+        margin: 0.5rem -3rem 0 8rem;
+    }
+
+    .dropdown-footer > ul {
+        width: 10rem;
     }
 
     .footer-button-and-rights {
-        margin: -1rem 0 0 20rem;
-        width: 32rem;
+        margin: -1rem 0 0 22.5rem;
     }
 
     .footer-button {
-        margin-right: 1.5rem;
+        transform: translateX(-5.5rem);
     }
 
     .footer-rights {
-        margin-right: 6.5rem;
-        width: 20rem;
+        transform: translateX(-8rem);
+        width: 16rem;
     }
 }
