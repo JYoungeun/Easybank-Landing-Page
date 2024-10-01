@@ -389,7 +389,7 @@ footer {
 
     .articles-body {
         display: flex;
-        margin: 8rem 8.5rem 0;
+        margin: 8rem 8.75rem 0;
     }
 
     .article {
@@ -418,18 +418,18 @@ footer {
     }
 
     .footer-icon {
-        margin: 0 0 0 4rem;
+        margin: 0 0 0 8.75rem;
     }
 
     .icons {
-        margin: 1rem 0 0 0;
+        padding: 1rem 0 0 6rem;
     }
 
     .dropdown-footer {
         columns: 2;
         width: 24rem;
         text-align: left;
-        margin: 0 0 0 8rem;
+        margin: 0 0 0 12rem;
     }
 
     .footer-button-and-rights {
