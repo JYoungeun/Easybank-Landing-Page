@@ -433,6 +433,15 @@ footer {
     }
 
     .footer-button-and-rights {
-        margin: 0 0 0 20rem;
+        margin: -1rem 0 0 20rem;
+        width: 32rem;
+    }
+
+    .footer-button {
+        margin-right: 3.5rem;
+    }
+
+    .footer-rights {
+        text-align: left;
     }
 }
