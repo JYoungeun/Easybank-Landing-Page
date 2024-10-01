@@ -407,4 +407,32 @@ footer {
     .articles-content {
         margin: -0.5rem -0.25rem -1.25rem;
     }
+
+    footer {
+        display: flex;
+        padding: 2rem;
+    }
+
+    .footer-icons {
+        flex-direction: column;
+    }
+
+    .footer-icon {
+        margin: 0 0 0 4rem;
+    }
+
+    .icons {
+        margin: 1rem 0 0 0;
+    }
+
+    .dropdown-footer {
+        columns: 2;
+        width: 24rem;
+        text-align: left;
+        margin: 0 0 0 8rem;
+    }
+
+    .footer-button-and-rights {
+        margin: 0 0 0 20rem;
+    }
 }
