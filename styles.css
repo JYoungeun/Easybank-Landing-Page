@@ -1,7 +1,11 @@
 :root {
     --Dark-Blue: hsl(233, 26%, 24%);
     --Lime-Green: hsl(136, 65%, 51%);
+    --Lime-Green-Transparent: hsla(136, 65%, 51%, 0.6);
+    --Lime-Green-Whiten: hsl(136, 51%, 65%);
     --Bright-Cyan: hsl(192, 70%, 51%);
+    --Bright-Cyan-Transparent: hsla(192, 70%, 51%, 0.6);
+    --Bright-Cyan-Whiten: hsl(192, 51%, 70%);
     --Grayish-Blue: hsl(233, 8%, 62%);
     --Light-Grayish-Blue: hsl(220, 16%, 96%);
     --Very-Light-Gray: hsl(0, 0%, 98%);
@@ -143,6 +147,11 @@ main {
     margin: 0.95rem auto 5rem;
 }
 
+.intro-button:hover {
+    cursor: pointer;
+    background: linear-gradient(75deg, var(--Lime-Green-Transparent), var(--Bright-Cyan-Transparent));
+}
+
 .reasons {
     background-color: var(--Light-Grayish-Blue);
     text-align: center;
@@ -217,6 +226,11 @@ main {
     font-weight: 400;
 }
 
+.articles-sub-header:hover {
+    color: var(--Lime-Green);
+    cursor: pointer;
+}
+
 .articles-description {
     color: var(--Grayish-Blue);
     font-size: 0.78rem;
@@ -246,11 +260,21 @@ footer {
     width: 1.5rem;
 }
 
+.icons-image:hover {
+    filter: invert(66%) sepia(70%) saturate(1000%) hue-rotate(110deg) brightness(95%);
+    cursor: pointer;
+}
+
 .dropdown-footer > ul {
     color: var(--Light-Grayish-Blue);
     list-style-type: none;
     line-height: 2rem;
     font-size: 0.9rem;
+}
+
+.dropdown-footer > ul > li:hover {
+    color: var(--Lime-Green);
+    cursor: pointer;
 }
 
 .footer-button {
@@ -262,6 +286,10 @@ footer {
     border: none;
     border-radius: 2rem;
     margin: 1.85rem 0 1.85rem 0;
+}
+
+.footer-button:hover {
+    background: linear-gradient(75deg, var(--Lime-Green-Whiten), var(--Bright-Cyan-Whiten));
 }
 
 .footer-rights {
@@ -312,6 +340,11 @@ footer {
         border: none;
         border-radius: 2rem;
         margin-left: 4.75rem;
+    }
+
+    .hidden-button:hover {
+        background: linear-gradient(75deg, var(--Lime-Green-Transparent), var(--Bright-Cyan-Transparent));
+        cursor: pointer;
     }
 
     .intro {
