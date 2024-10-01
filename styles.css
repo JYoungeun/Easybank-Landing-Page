@@ -422,14 +422,16 @@ footer {
     }
 
     .icons {
-        padding: 1rem 0 0 6rem;
+        margin-left: 6rem;
+        padding: 2rem 0 0 0;
+        width: 12rem;
     }
 
     .dropdown-footer {
         columns: 2;
         width: 24rem;
         text-align: left;
-        margin: 0 0 0 12rem;
+        margin: 0.5rem 0 0 8rem;
     }
 
     .footer-button-and-rights {
@@ -438,10 +440,11 @@ footer {
     }
 
     .footer-button {
-        margin-right: 3.5rem;
+        margin-right: 1.5rem;
     }
 
     .footer-rights {
-        text-align: left;
+        margin-right: 6.5rem;
+        width: 20rem;
     }
 }
